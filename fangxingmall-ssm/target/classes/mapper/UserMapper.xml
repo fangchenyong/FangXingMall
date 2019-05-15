@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.joey.dao.UserMapper">
+    <resultMap id="BaseResultMap" type="com.joey.bean.User">
+        <result column="Id" jdbcType="INTEGER" property="Id" />
+        <result column="Name" jdbcType="VARCHAR" property="Name" />
+        <result column="NickName" jdbcType="VARCHAR" property="NickName" />
+        <result column="PassWord" jdbcType="VARCHAR" property="PassWord" />
+        <result column="UserName" jdbcType="VARCHAR" property="UserName" />
+        <result column="CellPhone" jdbcType="VARCHAR" property="CellPhone" />
+        <result column="Email" jdbcType="VARCHAR" property="Email" />
+        <result column="Photo" jdbcType="VARCHAR" property="Photo" />
+        <result column="Level" jdbcType="CHAR" property="Level" />
+    </resultMap>
+    <select id="getUserById" parameterType="integer" resultType="hashmap">
+        SELECT * FROM fxm_user WHERE Id = #{Id}
+    </select>
+</mapper>
