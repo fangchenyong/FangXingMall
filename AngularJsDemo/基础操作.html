@@ -1,0 +1,91 @@
+<html>
+<head>
+	<title>AngularJs-Demo-1</title>
+	<script src="angular.min.js"></script>
+	<script>
+		//建立模块
+		var app = angular.module("myApp",[]);
+		//创建控制器,$scope控制层和视图层交换参数，变量或者方法
+		app.controller("myController",function($scope){
+			//4
+			$scope.add = function(){
+				if($scope.x==null||$scope.y==null)
+					return 0;
+				else
+					return Number($scope.x) + Number($scope.y);
+			};
+			//5
+			$scope.add2 = function(){
+				if($scope.x==null||$scope.y==null){
+					return 0;
+				}else{
+					$scope.z = Number($scope.x) + Number($scope.y);
+					return $scope.z;
+				}
+			};
+			//6
+			$scope.list=[100,200,300,400];
+			//7
+			$scope.objList=[
+				{name:"joey",age:23},
+				{name:"joey1",age:21},
+				{name:"joey2",age:22}
+			];
+			//8
+			$scope.findList = function(){
+				$http.get("地址").success(
+					function(response){
+						$scope.objList2 = response;
+					}
+				)
+			};
+			
+		});
+	</script>
+</head>
+<body ng-app="myApp" ng-controller="myController" ng-init="name='joey',findList()">
+1.引入ng-app调用js
+{{100+100}}
+<br/>
+2.使用ng-model双向绑定
+请输入姓名：
+<br/>
+<input ng-model="name">
+<br/>
+{{name}}
+<br/>
+3.使用ng-init添加页面加载默认值
+<br/>
+4.使用ng-controller实现控制器
+<br/>
+<input ng-model="x"> + <input ng-model="y"> = {{add()}}
+<br/>
+5.事件指令ng-click
+<br/>
+<input ng-model="x"> + <input ng-model="y"> <button ng-click = "add2()">=</button> {{z}}
+<br/>
+6.循环数组ng-repeat
+<br/>
+<table>
+	<tr ng-repeat="x in list">
+		<td>{{x}}</td>
+	</tr>
+</table>
+<br/>
+7.循环对象数组ng-repeat
+<br/>
+<table>
+	<tr>
+		<td>姓名</td>
+		<td>年龄</td>
+	</tr>
+	<tr ng-repeat="x in objList">
+		<td>{{x.name}}</td>
+		<td>{{x.age}}</td>
+	</tr>
+</table>
+<br/>
+8.内置服务从后台获取数据，在init初始化的时候加载
+
+</body>
+</html>
