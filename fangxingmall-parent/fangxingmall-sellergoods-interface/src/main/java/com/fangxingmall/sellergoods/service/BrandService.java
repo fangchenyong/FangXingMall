@@ -13,5 +13,12 @@ public interface BrandService {
 	public PageResult findPage(int pageNum,int pageSize);
 	//增加品牌
 	public void add(TbBrand brand);
-	
+	//根据Id查询实体 
+	public TbBrand findOneById(Long id);
+	//更新 
+	public void update(TbBrand brand);
+	//删除
+	public void delete(Long[] ids);
+	//按条件查询
+	public PageResult findPage(TbBrand brand,int pageNum,int pageSize);
 }
