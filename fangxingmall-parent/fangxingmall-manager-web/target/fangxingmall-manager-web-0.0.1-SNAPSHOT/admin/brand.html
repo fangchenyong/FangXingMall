@@ -18,67 +18,15 @@
 <script src="../plugins/angularjs/angular.min.js"></script>
 <script type="text/javascript" src="../plugins/angularjs/pagination.js"></script>
 <link rel="stylesheet" href="../plugins/angularjs/pagination.css">
-<script>
-  	//建立模块
-	var app = angular.module("fangxingmall",["pagination"]);
-	app.controller("brandController",function($scope,$http){
-		//查询品牌列表
-		$scope.findAll = function(){
-			$http.get("../brand/findAll.do").success(
-				function(response){
-					$scope.list = response;
-				}
-			);
-		};
-		//分页控件
-		$scope.paginationConf = {
-			currentPage: 1,
-			totalItems: 10,
-			itemsPerPage: 10,
-			perPageOptions: [10, 20, 30, 40, 50],
-			onChange: function(){
-				$scope.reloadList();
-			}
-		};
-		//刷新列表
-		$scope.reloadList = function(){
-			$scope.findPage($scope.paginationConf.currentPage, $scope.paginationConf.itemsPerPage)
-		};
-		$scope.findPage = function(page,size){
-			$http.get("../brand/findPage.do?page="+page+"&size="+size).success(
-				function(response){
-					$scope.list = response.rows;
-					$scope.paginationConf.totalItems=response.total;
-				}	
-			);
-		};
-		//新增
-		$scope.add = function(){
-			$http.post("../brand/add.do",$scope.entity).success(
-				function(response){
-					if(response.success){
-						$scope.reloadList();
-					}else{
-						alert(response.message);
-					}
-				}
-			);
-		};
 
-		//查询实体
-		$scope.findOne = function(id){
-			$http.get("../brand/findOne.do?id="+id).success(
-				function(response){
-					$scope.entity=response;
-				}
-			);
-		}
-	});
-    </script>
+<script type="text/javascript" src="../js/base_pagination.js"></script>
+<script type="text/javascript" src="../js/service/brandService.js"></script>
+<script type="text/javascript" src="../js/controller/baseController.js"></script>
+<script type="text/javascript" src="../js/controller/brandController.js"></script>
 </head>
 <body class="hold-transition skin-red sidebar-mini"
 	ng-app="fangxingmall" ng-controller="brandController">
-<!-- .box-body -->
+	<!-- .box-body -->
 	<div class="box-header with-border">
 		<h3 class="box-title">品牌管理</h3>
 	</div>
@@ -96,7 +44,8 @@
 							data-toggle="modal" data-target="#editModal" ng-click="entity={}">
 							<i class="fa fa-file-o"></i> 新建
 						</button>
-						<button type="button" class="btn btn-default" title="删除">
+						<button type="button" class="btn btn-default" title="删除"
+							ng-click="dele()">
 							<i class="fa fa-trash-o"></i> 删除
 						</button>
 						<button type="button" class="btn btn-default" title="刷新"
@@ -107,7 +56,11 @@
 				</div>
 			</div>
 			<div class="box-tools pull-right">
-				<div class="has-feedback"></div>
+				<div class="has-feedback">
+					品牌名称 : <input ng-model="searchEntity.name"> 品牌首字母 : <input
+						ng-model="searchEntity.firstChar">
+					<button class="btn btn-default" ng-click="reloadList()">查询</button>
+				</div>
 			</div>
 			<!--工具栏/-->
 
@@ -126,20 +79,21 @@
 				</thead>
 				<tbody>
 					<tr ng-repeat="obj in list">
-						<td><input type="checkbox"></td>
+						<td><input type="checkbox"
+							ng-click="updateSelection($event,obj.id)"></td>
 						<td>{{obj.id}}</td>
 						<td>{{obj.name}}</td>
 						<td>{{obj.firstChar}}</td>
 						<td class="text-center">
 							<button type="button" class="btn bg-olive btn-xs"
-								data-toggle="modal" data-target="#editModal" ng-click="findOne(obj.id)">修改</button>
+								data-toggle="modal" data-target="#editModal"
+								ng-click="findOne(obj.id)">修改</button>
 						</td>
 					</tr>
 				</tbody>
 			</table>
 			<!--数据列表/-->
 			<tm-pagination conf="paginationConf"></tm-pagination>
-
 		</div>
 		<!-- 数据表格 /-->
 
@@ -174,8 +128,10 @@
 					</table>
 				</div>
 				<div class="modal-footer">
-					<button class="btn btn-success" data-dismiss="modal" aria-hidden="true" ng-click="add()">保存</button>
-					<button class="btn btn-default" data-dismiss="modal" aria-hidden="true">关闭</button>
+					<button class="btn btn-success" data-dismiss="modal"
+						aria-hidden="true" ng-click="save()">保存</button>
+					<button class="btn btn-default" data-dismiss="modal"
+						aria-hidden="true">关闭</button>
 				</div>
 			</div>
 		</div>

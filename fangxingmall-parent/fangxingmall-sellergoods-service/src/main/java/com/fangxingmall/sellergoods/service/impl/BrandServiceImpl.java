@@ -1,6 +1,7 @@
 package com.fangxingmall.sellergoods.service.impl;
 
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -79,4 +80,11 @@ public class BrandServiceImpl implements BrandService{
 		return new PageResult(page.getTotal(), page.getResult());
 	}	
 	
+	/**
+	 * 列表数据
+	 */
+	@Override
+	public List<Map> selectOptionList() {
+		return brandMapper.selectOptionList();
+	}
 }

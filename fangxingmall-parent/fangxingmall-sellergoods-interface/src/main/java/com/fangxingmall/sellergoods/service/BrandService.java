@@ -1,6 +1,7 @@
 package com.fangxingmall.sellergoods.service;
 
 import java.util.List;
+import java.util.Map;
 
 import com.fangxingmall.pojo.TbBrand;
 
@@ -21,4 +22,6 @@ public interface BrandService {
 	public void delete(Long[] ids);
 	//按条件查询
 	public PageResult findPage(TbBrand brand,int pageNum,int pageSize);
+	//品牌下拉框数据
+	public List<Map> selectOptionList();
 }

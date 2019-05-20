@@ -25,7 +25,10 @@
 
 	<!-- 引用dubbo 服务 -->
 	<dubbo:application name="fangxingmall-shop-web" />
-	<dubbo:registry address="zookeeper://192.168.25.129:2181"/>
+	
+	<!-- <dubbo:registry address="zookeeper://192.168.25.129:2181"/> -->
+	<dubbo:provider delay="-1" timeout="60000" retries="0"/>
+	<dubbo:registry address="zookeeper://118.25.24.23:2181"/>
 	<dubbo:annotation package="com.fangxingmall.shop.controller" />  	
 
 </beans>
