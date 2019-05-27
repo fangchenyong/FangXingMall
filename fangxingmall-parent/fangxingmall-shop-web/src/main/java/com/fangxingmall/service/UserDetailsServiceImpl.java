@@ -34,6 +34,7 @@ public class UserDetailsServiceImpl implements UserDetailsService {
 		List<GrantedAuthority> grantAuths=new ArrayList();
 		grantAuths.add(new SimpleGrantedAuthority("ROLE_SELLER"));
 		
+		//return new User(username,"123456",grantAuths);
 		//得到商家对象
 		TbSeller seller = sellerService.findOne(username);
 		if(seller!=null){
