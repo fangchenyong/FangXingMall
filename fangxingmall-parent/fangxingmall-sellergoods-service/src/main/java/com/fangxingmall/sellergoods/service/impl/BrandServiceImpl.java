@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.transaction.annotation.Transactional;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.fangxingmall.mapper.TbBrandMapper;
@@ -16,6 +17,7 @@ import com.github.pagehelper.PageHelper;
 
 import entity.PageResult;
 @Service
+@Transactional
 public class BrandServiceImpl implements BrandService{
 
 	@Autowired
