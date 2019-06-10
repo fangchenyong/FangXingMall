@@ -278,5 +278,7 @@
 		<module>fangxingmall-sellergoods-service</module>
 		<module>fangxingmall-shop-web</module>
 		<module>fangxingmall-manager-web</module>
+		<module>fangxingmall-content-interface</module>
+		<module>fangxingmall-content-service</module>
 	</modules>
 </project>
