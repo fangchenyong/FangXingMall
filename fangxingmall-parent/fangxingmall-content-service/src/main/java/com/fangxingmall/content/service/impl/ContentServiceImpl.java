@@ -133,19 +133,18 @@ public class ContentServiceImpl implements ContentService {
 //		
 //		if(list==null){
 //			System.out.println("从数据库中查询数据并放入缓存 ");
-//			TbContentExample example=new TbContentExample();
-//			Criteria criteria = example.createCriteria();
-//			criteria.andCategoryIdEqualTo(categoryId);//指定条件:分类ID
-//			criteria.andStatusEqualTo("1");//指定条件：有效
-//			example.setOrderByClause("sort_order");//排序			
-//			list = contentMapper.selectByExample(example);
+			TbContentExample example=new TbContentExample();
+			Criteria criteria = example.createCriteria();
+			criteria.andCategoryIdEqualTo(categoryId);//指定条件:分类ID
+			criteria.andStatusEqualTo("1");//指定条件：有效
+			example.setOrderByClause("sort_order");//排序			
+			List<TbContent> list = contentMapper.selectByExample(example);
 //			//redisTemplate.boundHashOps("content").put(categoryId, list);//放入缓存
 //		}else{
 //			System.out.println("从缓存中查询数据 ");
 //		}
 //				
-//		return list;
-		return null;
+		return list;
 	}
 	
 }

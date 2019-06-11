@@ -280,5 +280,7 @@
 		<module>fangxingmall-manager-web</module>
 		<module>fangxingmall-content-interface</module>
 		<module>fangxingmall-content-service</module>
+		<module>fangxingmall-portal-web</module>
+		<module>fangxingmall-test</module>
 	</modules>
 </project>
