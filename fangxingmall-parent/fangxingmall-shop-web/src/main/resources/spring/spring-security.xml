@@ -37,7 +37,7 @@
 
    <!-- 引用dubbo 服务 -->	
 	<dubbo:application name="fangxingmall-shop-web" />
-	<dubbo:registry address="zookeeper://118.25.24.23:2181"/>
+	<dubbo:registry address="zookeeper://118.25.181.31:2181"/>
 	<dubbo:reference id="sellerService"  interface="com.fangxingmall.sellergoods.service.SellerService" >
 	</dubbo:reference>
 

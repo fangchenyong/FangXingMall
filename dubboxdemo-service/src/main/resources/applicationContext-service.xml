@@ -9,7 +9,7 @@
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
    	<dubbo:application name="dubboxdemo-service"/>
-	<dubbo:registry address="zookeeper://192.168.25.129:2181"/>
+	<dubbo:registry address="zookeeper://118.25.181.31:2181"/>
 	<dubbo:annotation package="com.joey.demo.service.impl"/>
    
 </beans>

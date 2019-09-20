@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="E:/Maven/LocalWarehouse/redis/clients/jedis/2.8.1/jedis-2.8.1.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-tx/4.2.6.RELEASE/spring-tx-4.2.6.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar"/>
+  <path value="E:/Maven/LocalWarehouse/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-beans/4.2.4.RELEASE/spring-beans-4.2.4.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-context-support/4.2.4.RELEASE/spring-context-support-4.2.4.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-oxm/4.2.6.RELEASE/spring-oxm-4.2.6.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/data/spring-data-commons/1.12.2.RELEASE/spring-data-commons-1.12.2.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar"/>
+  <path value="E:/Maven/LocalWarehouse/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/data/spring-data-keyvalue/1.1.2.RELEASE/spring-data-keyvalue-1.1.2.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-aop/4.2.6.RELEASE/spring-aop-4.2.6.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/data/spring-data-redis/1.7.2.RELEASE/spring-data-redis-1.7.2.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-expression/4.2.4.RELEASE/spring-expression-4.2.4.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"/>
+ </paths>
+ <validation>
+  <el>
+   <linked-el length="16" name="%0" offset="1498" path="%1"/>
+   <linked-el length="16" name="%2" offset="1548" path="%1"/>
+   <linked-el length="19" name="%3" offset="1179" path="%1"/>
+   <linked-el length="16" name="%4" offset="1521" path="%1"/>
+   <linked-el length="19" name="%5" offset="1247" path="%1"/>
+   <linked-el length="24" name="%5" offset="1313" path="%1"/>
+   <linked-el length="16" name="%5" offset="1521" path="%1"/>
+   <linked-el length="16" name="%5" offset="1498" path="%1"/>
+   <linked-el length="16" name="%5" offset="1548" path="%1"/>
+   <linked-el length="19" name="%5" offset="1179" path="%1"/>
+   <linked-el length="19" name="%6" offset="1247" path="%1"/>
+   <linked-el length="24" name="%7" offset="1313" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias
+   path="/fangxingmall-common/src/main/resources/spring/applicationContext-redis.xml" value="%1"/>
+  <alias path="redis.host" value="%0"/>
+  <alias path="redis.pass" value="%2"/>
+  <alias path="redis.maxIdle" value="%3"/>
+  <alias path="redis.port" value="%4"/>
+  <alias path="redis" value="%5"/>
+  <alias path="redis.maxWait" value="%6"/>
+  <alias path="redis.testOnBorrow" value="%7"/>
+ </aliases>
+ <includes/>
+ <uris/>
+</kb-project>

@@ -1,0 +1,35 @@
+log4j.rootLogger=INFO,console
+# TODO发布到阿里云记得添加，另外控制台不输出(只输出warn或者error信息)
+#INFO,console,dailyFile
+
+log4j.logger.org.mybatis =DEBUG
+log4j.logger.com.itzixi.mapper=DEBUG
+
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+log4j.appender.console.encoding=UTF-8
+log4j.appender.console.layout=org.apache.log4j.PatternLayout
+log4j.appender.console.layout.ConversionPattern=%-d{yyyy-MM-dd HH:mm:ss,SSS} [%t] [%l] - [%p] %m%n
+#mybatis显示SQL语句日志配置
+#log4j.logger.org.mybatis=DEBUG
+#log4j.logger.com.itzixi.mapper=DEBUG  
+
+# \u5B9A\u671F\u6EDA\u52A8\u65E5\u5FD7\u6587\u4EF6\uFF0C\u6BCF\u5929\u90FD\u4F1A\u751F\u6210\u65E5\u5FD7
+#log4j.appender.dailyFile=org.apache.log4j.DailyRollingFileAppender
+#log4j.appender.dailyFile.encoding=UTF-8
+#log4j.appender.dailyFile.Threshold=INFO
+# TODO \u672C\u5730\u65E5\u5FD7\u5730\u5740\uFF0C\u6B63\u5F0F\u73AF\u5883\u8BF7\u52A1\u5FC5\u5207\u6362\u4E3A\u963F\u91CC\u4E91\u5730\u5740
+#log4j.appender.dailyFile.File=C:/logs/itzixi-web/log.log4j
+#log4j.appender.dailyFile.File=/itzixi-disk1/logs/itzixi-web/log.log4j
+#log4j.appender.dailyFile.DatePattern='.'yyyy-MM-dd
+#log4j.appender.dailyFile.layout=org.apache.log4j.PatternLayout
+#log4j.appender.dailyFile.layout.ConversionPattern=%-d{yyyy-MM-dd HH:mm:ss,SSS} [%t] [%l] - [%p] %m%n
+
+
+##\u663E\u793ASQL\u8BED\u53E5\u90E8\u5206
+#log4j.logger.com.ibatis=DEBUG
+#log4j.logger.com.ibatis.common.jdbc.SimpleDataSource=DEBUG
+#log4j.logger.com.ibatis.common.jdbc.ScriptRunner=DEBUG
+#log4j.logger.com.ibatis.sqlmap.engine.impl.SqlMapClientDelegate=DEBUG
+#log4j.logger.java.sql.Connection=DEBUG
+#log4j.logger.java.sql.Statement=DEBUG
+#log4j.logger.java.sql.PreparedStatement=DEBUG
