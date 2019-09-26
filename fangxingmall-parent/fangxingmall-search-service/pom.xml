@@ -82,8 +82,8 @@
 			<artifactId>fangxingmall-search-interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-
-		<build>
+	</dependencies>
+	<build>
 			<plugins>
 				<plugin>
 					<groupId>org.apache.tomcat.maven</groupId>
@@ -98,5 +98,4 @@
 				</plugin>
 			</plugins>
 		</build>
-	</dependencies>
 </project>

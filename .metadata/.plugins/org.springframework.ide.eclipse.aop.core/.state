@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aop-reference-model/>
+<aop-reference-model>
+<aop-project name="fangxingmall-portal-web"/>
+<aop-project name="fangxingmall-search-service"/>
+<aop-project name="fangxingmall-manager-web"/>
+<aop-project name="fangxingmall-common"/>
+<aop-project name="fangxingmall-content-service"/>
+<aop-project name="fangxingmall-sellergoods-service"/>
+<aop-project name="fangxingmall-shop-web"/>
+<aop-project name="fangxingmall-search-web"/>
+</aop-reference-model>

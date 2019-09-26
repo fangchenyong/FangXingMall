@@ -3,23 +3,23 @@
  <depends-on-projects/>
  <used-by-projects/>
  <paths>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/spring-expression/4.2.4.RELEASE/spring-expression-4.2.4.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
-  <path value="C:/Users/10136/.m2/repository/redis/clients/jedis/2.8.1/jedis-2.8.1.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/spring-tx/4.2.6.RELEASE/spring-tx-4.2.6.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/data/spring-data-keyvalue/1.1.2.RELEASE/spring-data-keyvalue-1.1.2.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar"/>
-  <path value="C:/Users/10136/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/data/spring-data-redis/1.7.2.RELEASE/spring-data-redis-1.7.2.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/spring-beans/4.2.4.RELEASE/spring-beans-4.2.4.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/spring-context-support/4.2.4.RELEASE/spring-context-support-4.2.4.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/spring-oxm/4.2.6.RELEASE/spring-oxm-4.2.6.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/spring-aop/4.2.6.RELEASE/spring-aop-4.2.6.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar"/>
-  <path value="C:/Users/10136/.m2/repository/org/springframework/data/spring-data-commons/1.12.2.RELEASE/spring-data-commons-1.12.2.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/redis/clients/jedis/2.8.1/jedis-2.8.1.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-tx/4.2.6.RELEASE/spring-tx-4.2.6.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/slf4j/jcl-over-slf4j/1.7.21/jcl-over-slf4j-1.7.21.jar"/>
+  <path value="E:/Maven/LocalWarehouse/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-beans/4.2.4.RELEASE/spring-beans-4.2.4.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-context-support/4.2.4.RELEASE/spring-context-support-4.2.4.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-oxm/4.2.6.RELEASE/spring-oxm-4.2.6.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/data/spring-data-commons/1.12.2.RELEASE/spring-data-commons-1.12.2.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/apache/commons/commons-pool2/2.4.2/commons-pool2-2.4.2.jar"/>
+  <path value="E:/Maven/LocalWarehouse/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/data/spring-data-keyvalue/1.1.2.RELEASE/spring-data-keyvalue-1.1.2.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-aop/4.2.6.RELEASE/spring-aop-4.2.6.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-context/4.2.4.RELEASE/spring-context-4.2.4.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/data/spring-data-redis/1.7.2.RELEASE/spring-data-redis-1.7.2.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-expression/4.2.4.RELEASE/spring-expression-4.2.4.RELEASE.jar"/>
+  <path value="E:/Maven/LocalWarehouse/org/springframework/spring-core/4.2.6.RELEASE/spring-core-4.2.6.RELEASE.jar"/>
  </paths>
  <validation>
   <el>

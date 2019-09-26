@@ -282,5 +282,9 @@
 		<module>fangxingmall-content-service</module>
 		<module>fangxingmall-portal-web</module>
 		<module>fangxingmall-test</module>
+		<module>fangxingmall-solr-util</module>
+		<module>fangxingmall-search-interface</module>
+		<module>fangxingmall-search-service</module>
+		<module>fangxingmall-search-web</module>
 	</modules>
 </project>
