@@ -31,7 +31,6 @@ public class ItemSeachServiceImpl  implements ItemSearchService{
 		//1.查询列表		
 		map.putAll(searchList(searchMap));
 		return map;
-
 	}
 
 	/**
