@@ -1,1 +1,1 @@
-[[{"location":"D:\\Program Files\\Java\\jdk1.8.0_73","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.7"}},"jre:jre:1.7.0"]]
+[[{"location":"D:\\Program Files\\Java\\jdk1.8.0_73","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.7"}},"jre:jre:1.7.0"],[{"location":"E:\\Maven\\LocalWarehouse\\org\\springframework\\data\\spring-data-solr\\1.5.5.RELEASE\\spring-data-solr-1.5.5.RELEASE.jar","type":"JAR","hints":{}},"org.springframework.data:spring-data-solr:1.5.5"]]

@@ -5,4 +5,19 @@
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.SimpleHighlightQuery"/>
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.result.HighlightPage"/>
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.result.HighlightEntry"/>
+<fullyQualifiedTypeName name="com.alibaba.dubbo.container.page.Page"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
+<fullyQualifiedTypeName name="org.springframework.data.redis.core.RedisTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.data.solr.core.query.FilterQuery"/>
+<fullyQualifiedTypeName name="org.springframework.data.solr.core.query.SimpleFilterQuery"/>
+<fullyQualifiedTypeName name="org.springframework.data.domain.Sort"/>
+<fullyQualifiedTypeName name="org.junit.Ignore"/>
+<fullyQualifiedTypeName name="com.fangxingmall.pojo.TbItem"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.fangxingmall.search.service.ItemSearchService"/>
+<fullyQualifiedTypeName name="javax.management.Query"/>
+<fullyQualifiedTypeName name="org.springframework.data.solr.core.query.SimpleQuery"/>
+<fullyQualifiedTypeName name="org.springframework.data.solr.core.SolrTemplate"/>
+<fullyQualifiedTypeName name="org.springframework.data.solr.core.query.Query"/>
 </qualifiedTypeNameHistroy>
