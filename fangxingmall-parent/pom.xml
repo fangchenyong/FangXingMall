@@ -286,5 +286,7 @@
 		<module>fangxingmall-search-interface</module>
 		<module>fangxingmall-search-service</module>
 		<module>fangxingmall-search-web</module>
+		<module>fangxingmall-page-interface</module>
+		<module>fangxingmall-page-service</module>
 	</modules>
 </project>

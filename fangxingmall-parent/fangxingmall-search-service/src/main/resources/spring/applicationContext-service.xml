@@ -15,5 +15,5 @@
     <dubbo:provider delay="-1" timeout="6000" retries="0"/>
     <dubbo:annotation package="com.fangxingmall.search.service.impl" />
    
-   
+ 
 </beans>
