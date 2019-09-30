@@ -36,6 +36,7 @@ public class ItemPageServiceImpl implements ItemPageService{
 	@Override
 	public boolean genItemHtml(Long goodsId){				
 		try {
+			System.out.println("生成静态文件");
 			Configuration configuration = freeMarkerConfig.getConfiguration();
 			Template template = configuration.getTemplate("item.ftl");
 			Map dataModel=new HashMap<>();			
