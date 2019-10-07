@@ -288,5 +288,6 @@
 		<module>fangxingmall-search-web</module>
 		<module>fangxingmall-page-interface</module>
 		<module>fangxingmall-page-service</module>
+		<module>fangxingmall-page-web</module>
 	</modules>
 </project>
