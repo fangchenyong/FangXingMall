@@ -6,6 +6,7 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-parent" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-content-service" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-page-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-page-web" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-shop-web" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-sellergoods-interface" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-pojo" type="4"/>
@@ -18,7 +19,6 @@
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-content-interface" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-sellergoods-service" type="4"/>
 <item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-dao" type="4"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fangxingmall-page-web" type="4"/>
 </workingSet>
 <workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1569460722314_1" label="Window Working Set" name="Aggregate for window 1569460722314"/>
 </workingSetManager>

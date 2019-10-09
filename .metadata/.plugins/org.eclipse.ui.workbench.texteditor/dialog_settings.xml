@@ -2,24 +2,24 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="false" key="isRegEx"/>
-		<item value="ApplicationContext context=new ClassPathXmlApplicationContext(&quot;classpath*:spring/applicationContext*.xml&quot;);" key="selection"/>
+		<item value="addToCart" key="selection"/>
 		<item value="false" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="true" key="wrap"/>
 		<item value="false" key="wholeword"/>
 		<list key="findhistory">
-			<item value="ApplicationContext context=new ClassPathXmlApplicationContext(&quot;classpath*:spring/applicationContext*.xml&quot;);"/>
-			<item value="品优购"/>
-			<item value="keywordsIsBrand"/>
-			<item value="新品"/>
-			<item value="综合"/>
-			<item value="&lt;li class=&quot;tag&quot; ng-if=&quot;searchMap.price!=&apos;&apos;&quot; ng-click=&quot;removeSearchItem(&apos;price&apos;)&quot;&gt;价格：{{searchMap.price}}&lt;i class=&quot;sui-icon icon-tb-close&quot;&gt;&lt;/i&gt;&lt;/li&gt;"/>
+			<item value="addToCart"/>
+			<item value="加入"/>
+			<item value="matchObject"/>
 			<item value="pinyougou"/>
-			<item value="find"/>
+			<item value="specificationList"/>
+			<item value="customAttributeList"/>
+			<item value="品优购"/>
+			<item value="ApplicationContext context=new ClassPathXmlApplicationContext(&quot;classpath*:spring/applicationContext*.xml&quot;);"/>
 		</list>
 		<list key="replacehistory">
-			<item value="方兴商城"/>
 			<item value="fangxingmall"/>
+			<item value="方兴商城"/>
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">

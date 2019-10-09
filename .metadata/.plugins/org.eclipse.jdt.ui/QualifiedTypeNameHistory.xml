@@ -19,11 +19,13 @@
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.SimpleQuery"/>
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.SolrTemplate"/>
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.Query"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
 <fullyQualifiedTypeName name="com.alibaba.dubbo.config.annotation.Service"/>
 <fullyQualifiedTypeName name="freemarker.template.Configuration"/>
 <fullyQualifiedTypeName name="java.io.Writer"/>
 <fullyQualifiedTypeName name="com.fangxingmall.mapper.TbGoodsMapper"/>
 <fullyQualifiedTypeName name="com.fangxingmall.page.service.ItemPageService"/>
+<fullyQualifiedTypeName name="com.fangxingmall.mapper.TbItemCatMapper"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="com.fangxingmall.pojo.TbItemExample.Criteria"/>
 </qualifiedTypeNameHistroy>

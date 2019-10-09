@@ -4,10 +4,13 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.joey"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="fangxingmall-page-web"/>
+			<item value="fangxingmall-parent"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -69,6 +72,7 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="fangxingmall-page-web"/>
 			<item value="fangxingmall-page-service"/>
 			<item value="fangxingmall-page-interface"/>
 			<item value="fangxingmall-search-web"/>
@@ -104,11 +108,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org."/>
+			<item value="org.fangxingmall.page.web"/>
 		</list>
 		<list key="groupId">
+			<item value="com.joey"/>
 		</list>
 		<list key="artifactId">
+			<item value="fangxingmall-page-web"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
