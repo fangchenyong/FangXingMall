@@ -4,11 +4,15 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="com.joey.demo"/>
 			<item value="com.joey"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="springjms_consumer"/>
+			<item value="springjms_producer"/>
+			<item value="jmsDemo"/>
 			<item value="fangxingmall-page-web"/>
 			<item value="fangxingmall-parent"/>
 		</list>
@@ -108,13 +112,10 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="org.fangxingmall.page.web"/>
 		</list>
 		<list key="groupId">
-			<item value="com.joey"/>
 		</list>
 		<list key="artifactId">
-			<item value="fangxingmall-page-web"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

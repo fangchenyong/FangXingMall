@@ -94,11 +94,18 @@
 		<artifactId>fangxingmall-content-interface</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</dependency>
-	<dependency>
+	<!-- 引入activemq解耦 -->
+	<!-- <dependency>
 		<groupId>com.joey</groupId>
 		<artifactId>fangxingmall-search-interface</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-	</dependency>
+	</dependency> -->
+	<dependency>
+		<groupId>org.apache.activemq</groupId>
+		<artifactId>activemq-client</artifactId>
+		<version>5.13.4</version>
+	 </dependency>
+	
 	<dependency>
 		<groupId>com.joey</groupId>
 		<artifactId>fangxingmall-page-interface</artifactId>
