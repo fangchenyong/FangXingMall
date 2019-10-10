@@ -5,7 +5,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.junit.Ignore;
+import javax.jms.Message;
+import javax.jms.MessageListener;
+import javax.jms.TextMessage;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Sort;
@@ -25,8 +28,10 @@ import org.springframework.data.solr.core.query.result.GroupPage;
 import org.springframework.data.solr.core.query.result.GroupResult;
 import org.springframework.data.solr.core.query.result.HighlightEntry;
 import org.springframework.data.solr.core.query.result.HighlightPage;
+import org.springframework.stereotype.Component;
 
 import com.alibaba.dubbo.config.annotation.Service;
+import com.alibaba.fastjson.JSON;
 import com.fangxingmall.pojo.TbItem;
 import com.fangxingmall.search.service.ItemSearchService;
 
@@ -217,4 +222,6 @@ public class ItemSeachServiceImpl  implements ItemSearchService{
 		solrTemplate.delete(query);
 		solrTemplate.commit();
 	}
+	
+	
 }

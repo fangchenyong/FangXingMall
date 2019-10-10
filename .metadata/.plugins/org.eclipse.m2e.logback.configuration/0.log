@@ -4584,3 +4584,38 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2019-10-09 17:00:07,052 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2019-10-09 17:00:07,053 [Worker-170] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
 2019-10-09 17:00:07,059 [Worker-170] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-10 09:25:10,968 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-10-10 09:25:28,824 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:28,833 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-10 09:25:28,835 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:28,840 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-10 09:25:31,929 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.2.8 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2019-10-10 09:25:33,356 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:33,362 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-10-10 09:25:33,366 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:33,371 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-10 09:25:34,650 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.2.8 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2019-10-10 09:25:34,907 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:34,913 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-10 09:25:34,914 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:34,920 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-10 09:25:35,342 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.2.8 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2019-10-10 09:25:35,367 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:35,372 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-10 09:25:35,374 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:35,380 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-10 09:25:36,483 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.2.8 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2019-10-10 09:25:36,850 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:36,855 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2019-10-10 09:25:36,856 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:36,861 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-10 09:25:37,490 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.2.8 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2019-10-10 09:25:37,527 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:37,532 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-10-10 09:25:37,560 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:37,565 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-10-10 09:25:37,797 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mybatis:mybatis:jar:3.2.8 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2019-10-10 09:25:37,818 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:37,823 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2019-10-10 09:25:37,824 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (GBK actually) to copy filtered resources, i.e. build is platform dependent!
+2019-10-10 09:25:37,829 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

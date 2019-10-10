@@ -248,6 +248,7 @@ public class GoodsServiceImpl implements GoodsService {
 			goods.setAuditStatus(status);
 			goodsMapper.updateByPrimaryKey(goods);
 		}
+		System.out.println("更新状态");
 	}
 
 	@Override
@@ -256,6 +257,7 @@ public class GoodsServiceImpl implements GoodsService {
 		TbItemExample.Criteria criteria = example.createCriteria();
 		criteria.andGoodsIdIn(Arrays.asList(goodsIds));
 		criteria.andStatusEqualTo(status);
+		System.out.println("查找更新");
 		return itemMapper.selectByExample(example);
 	}
 

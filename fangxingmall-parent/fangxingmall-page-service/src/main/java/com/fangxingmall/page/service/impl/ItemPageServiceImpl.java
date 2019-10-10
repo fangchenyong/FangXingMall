@@ -1,5 +1,6 @@
 package com.fangxingmall.page.service.impl;
 
+import java.io.File;
 import java.io.FileWriter;
 import java.io.Writer;
 import java.util.HashMap;
@@ -10,7 +11,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.servlet.view.freemarker.FreeMarkerConfig;
 
-import com.alibaba.dubbo.config.annotation.Service;
 import com.fangxingmall.mapper.TbGoodsDescMapper;
 import com.fangxingmall.mapper.TbGoodsMapper;
 import com.fangxingmall.mapper.TbItemCatMapper;
@@ -24,7 +24,7 @@ import com.fangxingmall.pojo.TbItemExample.Criteria;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;
-@Service
+@org.springframework.stereotype.Service
 public class ItemPageServiceImpl implements ItemPageService{
 
 	@Value("${pagedir}")
@@ -82,6 +82,20 @@ public class ItemPageServiceImpl implements ItemPageService{
 			e.printStackTrace();
 			return false;
 		}
+	}
+
+	@Override
+	public boolean deleteItemHtml(Long[] goodsIds) {
+		try {
+			for(Long goodsId:goodsIds){
+				new File(pagedir+goodsId+".html").delete();
+			}
+			return true;
+		} catch (Exception e) {
+			e.printStackTrace();
+			return false;
+		}	
+
 	}
 
 
