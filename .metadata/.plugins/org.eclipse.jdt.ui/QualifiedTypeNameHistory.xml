@@ -26,7 +26,6 @@
 <fullyQualifiedTypeName name="com.fangxingmall.mapper.TbGoodsMapper"/>
 <fullyQualifiedTypeName name="com.fangxingmall.page.service.ItemPageService"/>
 <fullyQualifiedTypeName name="com.fangxingmall.mapper.TbItemCatMapper"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.fangxingmall.pojo.TbItemExample.Criteria"/>
 <fullyQualifiedTypeName name="javax.jms.Queue"/>
 <fullyQualifiedTypeName name="javax.jms.Connection"/>
@@ -42,5 +41,16 @@
 <fullyQualifiedTypeName name="com.alibaba.fastjson.JSON"/>
 <fullyQualifiedTypeName name="javax.jms.Message"/>
 <fullyQualifiedTypeName name="java.lang.Long"/>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringBootConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.boot.SpringApplication"/>
+<fullyQualifiedTypeName name="com.joey.demo.Application"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="javax.mail.internet.MimeUtility"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 </qualifiedTypeNameHistroy>

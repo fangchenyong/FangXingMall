@@ -16,9 +16,10 @@ public class MailController {
  
     @RequestMapping("getCheckCode")
     @ResponseBody
-    public String getCheckCode(String email){
+    public String getCheckCode(String email,String checkCode){
     	System.out.println(email);
-        String checkCode = String.valueOf(new Random().nextInt(899999) + 100000);
+    	System.out.println(checkCode);
+       // String checkCode = String.valueOf(new Random().nextInt(899999) + 100000);
         String message = "您的注册验证码为："+checkCode;
         try {
             mailService.sendSimpleMail(email, "注册验证码", message);

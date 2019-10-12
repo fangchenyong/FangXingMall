@@ -4,17 +4,20 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="com.joey.demo"/>
+			<item value="com.fangxingmall"/>
 			<item value="com.joey"/>
+			<item value="com.joey.demo"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="fangxingmall-user-interface"/>
+			<item value="fangxingmall-parent"/>
+			<item value="springBootEmail"/>
 			<item value="springjms_consumer"/>
 			<item value="springjms_producer"/>
 			<item value="jmsDemo"/>
 			<item value="fangxingmall-page-web"/>
-			<item value="fangxingmall-parent"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -42,7 +45,7 @@
 		<item value="480" key="width"/>
 		<item value="807" key="x"/>
 		<item value="199" key="y"/>
-		<item value="594" key="height"/>
+		<item value="732" key="height"/>
 	</section>
 	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
 		<item value="480" key="width"/>
@@ -76,6 +79,7 @@
 	</section>
 	<section name="MavenModuleWizardParentPage">
 		<list key="moduleName">
+			<item value="fangxingmall-user-interface"/>
 			<item value="fangxingmall-page-web"/>
 			<item value="fangxingmall-page-service"/>
 			<item value="fangxingmall-page-interface"/>
@@ -112,10 +116,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="org.fangxingmall.user.interface"/>
 		</list>
 		<list key="groupId">
+			<item value="com.joey"/>
 		</list>
 		<list key="artifactId">
+			<item value="fangxingmall-user-interface"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

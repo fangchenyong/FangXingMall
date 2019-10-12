@@ -2,6 +2,7 @@
 <aop-reference-model>
 <aop-project name="fangxingmall-portal-web"/>
 <aop-project name="fangxingmall-manager-web"/>
+<aop-project name="springBootEmailDemo"/>
 <aop-project name="fangxingmall-common"/>
 <aop-project name="fangxingmall-content-service"/>
 <aop-project name="fangxingmall-sellergoods-service"/>

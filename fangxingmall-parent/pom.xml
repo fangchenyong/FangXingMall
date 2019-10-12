@@ -289,5 +289,8 @@
 		<module>fangxingmall-page-interface</module>
 		<module>fangxingmall-page-service</module>
 		<module>fangxingmall-page-web</module>
+		<module>fangxingmall-user-interface</module>
+		<module>fangxingmall-user-service</module>
+		<module>fangxingmall-user-web</module>
 	</modules>
 </project>
