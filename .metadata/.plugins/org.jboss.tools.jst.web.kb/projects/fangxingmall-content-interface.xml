@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
  <depends-on-projects>
-  <project name="fangxingmall-pojo"/>
   <project name="fangxingmall-dao"/>
+  <project name="fangxingmall-pojo"/>
  </depends-on-projects>
  <used-by-projects/>
  <paths>

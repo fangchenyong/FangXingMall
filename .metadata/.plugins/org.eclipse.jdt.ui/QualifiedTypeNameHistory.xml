@@ -5,7 +5,6 @@
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.SimpleHighlightQuery"/>
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.result.HighlightPage"/>
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.result.HighlightEntry"/>
-<fullyQualifiedTypeName name="com.alibaba.dubbo.container.page.Page"/>
 <fullyQualifiedTypeName name="org.springframework.data.domain.Page"/>
 <fullyQualifiedTypeName name="org.springframework.data.redis.core.RedisTemplate"/>
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.FilterQuery"/>
@@ -20,7 +19,6 @@
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.SolrTemplate"/>
 <fullyQualifiedTypeName name="org.springframework.data.solr.core.query.Query"/>
 <fullyQualifiedTypeName name="java.util.Date"/>
-<fullyQualifiedTypeName name="com.alibaba.dubbo.config.annotation.Service"/>
 <fullyQualifiedTypeName name="freemarker.template.Configuration"/>
 <fullyQualifiedTypeName name="java.io.Writer"/>
 <fullyQualifiedTypeName name="com.fangxingmall.mapper.TbGoodsMapper"/>
@@ -46,11 +44,17 @@
 <fullyQualifiedTypeName name="com.joey.demo.Application"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Controller"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="org.slf4j.Logger"/>
 <fullyQualifiedTypeName name="javax.mail.internet.MimeUtility"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.slf4j.LoggerFactory"/>
 <fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="com.alibaba.dubbo.container.page.Page"/>
+<fullyQualifiedTypeName name="com.fangxingmall.mapper.TbUserMapper"/>
+<fullyQualifiedTypeName name="com.github.pagehelper.PageHelper"/>
+<fullyQualifiedTypeName name="com.github.pagehelper.Page"/>
+<fullyQualifiedTypeName name="entity.PageResult"/>
+<fullyQualifiedTypeName name="com.alibaba.dubbo.config.annotation.Service"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
 </qualifiedTypeNameHistroy>
